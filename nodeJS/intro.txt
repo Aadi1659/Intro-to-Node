@@ -1,0 +1,22 @@
+the require('fs') will require to access the file system of the user
+
+Common operations:
+    Read files
+    Create files
+    Update files
+    Delete files
+    Rename files
+
+eg const fs = require('fs');
+
+NPM stands for node package manager and is currently the largest package manager for node.
+We start of by writing a command called node init which will create the package.json file for our project.
+
+to use npm external packages we need to install them into our project first.
+its as simple as npm install <package>
+make sure you are in the project directory.
+
+for eg we will install the superheroes package.
+const superheroes = require('superheroes');
+var mySuperHero = superheroes.random();
+console.log(mySuperHero);
